@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="css/rota.css">
+  
+  <title>Rota</title>
+</head>
+<body>
+  <div id="add-worker-modal" class="modal overlay">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>Add Worker</h2>
+      </div>
+
+      <div class="modal-body">
+        <form action="#">
+          Name: <input type="text"><br>
+          Short Name: <input type="text"><br>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn float-right" type="button">Save</button>
+        <button class="btn float-right" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="add-job-modal" class="modal overlay">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h2>Add Job</h2>
+      </div>
+      
+      <div class="modal-body">
+        <p>This is where a form will go to add job details.</p>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn float-right" type="button">Save</button>
+        <button class="btn float-right" type="button">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <h1>Rota Manager</h1>
+
+  <button id="add-worker-btn" class="btn" type="button">Add Worker</button>
+  <button id="add-job-btn" class="btn" type="button">Add Job</button>
+
+  <script src="js/rota.js"></script>
+</body>
+</html>
